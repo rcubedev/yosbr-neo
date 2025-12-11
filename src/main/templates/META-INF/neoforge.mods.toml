@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+
+license="${mod_license}"
+issueTrackerURL="https://github.com/vercte/yosbr-neo/issues/"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+
+displayName="${mod_name}"
+displayURL="https://modrinth.com/mod/yosbr-neo/"
+logoFile= "../../resources/assets/yosbr/icon.png"
+credits="shedaniel (Fabric Author)"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[mixins]]
+config="yosbr.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+# Here's another dependency
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
