@@ -15,7 +15,7 @@ group = maven_group
 repositories {}
 
 base {
-    archivesName = mod_id
+    archivesName = "${mod_id}-neo"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)

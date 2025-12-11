@@ -10,7 +10,7 @@ version="${mod_version}"
 
 displayName="${mod_name}"
 displayURL="https://modrinth.com/mod/yosbr-neo/"
-logoFile= "../../resources/assets/yosbr/icon.png"
+logoFile= "assets/yosbr/icon.png"
 credits="shedaniel (Fabric Author)"
 authors="${mod_authors}"
 description='''${mod_description}'''
